@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="cpu">
+        <item>Processors</item>
+        <item>Ryzen 5600h</item>
+        <item>Ryzen 7700x</item>
+        <item>Ryzen 9900</item>
+    </string-array>
+
+    <string-array name="cpu_prices">
+        <item>₹18,000</item> <!-- Price for Ryzen 5600h -->
+        <item>₹25,000</item> <!-- Price for Ryzen 7700x -->
+        <item>₹35,000</item> <!-- Price for Ryzen 9900 -->
+    </string-array>
+
+    <string-array name="gpu">
+        <item>Graphics Cards</item>
+        <item>Radeon 5600XT</item>
+        <item>Radeon 6600XT</item>
+        <item>Radeon 7700XT</item>
+    </string-array>
+
+    <string-array name="gpu_prices">
+        <item>₹15,000</item> <!-- Price for Radeon 5600 -->
+        <item>₹22,000</item> <!-- Price for Radeon 6600X -->
+        <item>₹30,000</item> <!-- Price for Radeon 7700XT -->
+    </string-array>
+
+    <string-array name="ram">
+        <item>Ram</item>
+        <item>8GB</item>
+        <item>16GB</item>
+        <item>32GB</item>
+    </string-array>
+
+    <string-array name="ram_prices">
+        <item>₹4,000</item> <!-- Price for 8GB -->
+        <item>₹8,000</item> <!-- Price for 16GB -->
+        <item>₹12,000</item> <!-- Price for 32GB -->
+    </string-array>
+
+
+    <string-array name="mb">
+        <item>MotherBoard</item>
+        <item>Gigabyte</item>
+        <item>ASUS</item>
+        <item>MSI</item>
+    </string-array>
+
+    <string-array name="mb_prices">
+        <item>₹5,000</item> <!-- Price for 8GB -->
+        <item>₹7,000</item> <!-- Price for 16GB -->
+        <item>₹7,500</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="ssd">
+        <item>SSD</item>
+        <item>128GB</item>
+        <item>256GB</item>
+        <item>500GB</item>
+    </string-array>
+
+    <string-array name="ssd_prices">
+        <item>₹1,000</item> <!-- Price for 8GB -->
+        <item>₹1,400</item> <!-- Price for 16GB -->
+        <item>₹1,900</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="psu">
+        <item>Power Supply</item>
+        <item>Corsair 750e</item>
+        <item>Zebronics</item>
+        <item>A650 MSI</item>
+    </string-array>
+
+    <string-array name="psu_prices">
+        <item>₹4,700</item> <!-- Price for 8GB -->
+        <item>₹2,700</item> <!-- Price for 16GB -->
+        <item>₹5,500</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="pcase">
+        <item>Cabinet</item>
+        <item>MSI white</item>
+        <item>Zebronics black</item>
+        <item>Deepcool red</item>
+    </string-array>
+
+    <string-array name="case_prices">
+        <item>₹5,700</item> <!-- Price for 8GB -->
+        <item>₹5,700</item> <!-- Price for 16GB -->
+        <item>₹4,500</item> <!-- Price for 32GB -->
+    </string-array>
+
+    <string-array name="icpu">
+        <item>Processors</item>
+        <item>Intel i5</item>
+        <item>Intel i7</item>
+        <item>Intel i9</item>
+    </string-array>
+
+    <string-array name="icpu_prices">
+        <item>₹18,000</item> <!-- Price for Ryzen 5600h -->
+        <item>₹35,000</item> <!-- Price for Ryzen 7700x -->
+        <item>₹60,000</item> <!-- Price for Ryzen 9900 -->
+    </string-array>
+
+    <string-array name="igpu">
+        <item>Graphics Cards</item>
+        <item>GTX 1660</item>
+        <item>RTX 3050</item>
+        <item>RTX 4080</item>
+    </string-array>
+
+    <string-array name="igpu_prices">
+        <item>₹20,000</item> <!-- Price for Radeon 5600 -->
+        <item>₹35,000</item> <!-- Price for Radeon 6600X -->
+        <item>₹88,000</item> <!-- Price for Radeon 7700XT -->
+    </string-array>
+</resources>

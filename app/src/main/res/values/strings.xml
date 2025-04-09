@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tech Treasure</string>
+    <string name="image1_text">Choose Option for Image 1</string>
+    <string name="image2_text">Choose Option for Image 2</string>
+</resources>

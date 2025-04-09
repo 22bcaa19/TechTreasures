@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".amdbuild"
+    android:background="@drawable/bgamd">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="50dp"
+            android:paddingTop="0dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="50dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Tech Treasure"
+                android:textColor="@color/orange"
+                android:textSize="30sp"
+                android:paddingLeft="45dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/amdtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Choose your AMD Build"
+                android:textColor="@color/red"
+                android:textSize="20sp"
+                android:paddingLeft="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cpuu" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:entries="@array/cpu"
+                android:prompt="@string/image1_text" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gpuu" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/gpu"
+                android:prompt="@string/image2_text" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ram" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/ram"
+                android:prompt="@string/image2_text" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mb" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/mb"
+                android:prompt="@string/image2_text" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ssdd" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/ssd"
+                android:prompt="@string/image2_text" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/psuu" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/psu"
+                android:prompt="@string/image2_text" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of Image 2"
+                android:scaleType="centerCrop"
+                android:src="@drawable/c" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:entries="@array/pcase"
+                android:prompt="@string/image2_text" />
+
+            <TextView
+                android:id="@+id/totalPriceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Price: ₹0"
+                android:paddingTop="10dp"
+                android:paddingLeft="80dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+            <Button
+                android:id="@+id/completeButton"
+                android:layout_width="214dp"
+                android:layout_height="51dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginLeft="39dp"
+                android:text="Done" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
